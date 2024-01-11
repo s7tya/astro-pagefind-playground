@@ -1,0 +1,19 @@
+{
+  "name": "pagefind-playground",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "npm run build && pagefind --site dist && npm run preview",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@pagefind/default-ui": "^1.0.4",
+    "astro": "^4.1.1",
+    "pagefind": "^1.0.4",
+    "typescript": "^5.3.3"
+  }
+}
